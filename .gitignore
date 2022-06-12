@@ -27,5 +27,4 @@ bin/
 *.DS_Store
 
 # don't commit mojang code
-src/main/java/com/
-src/main/java/net/
+mojang-code/

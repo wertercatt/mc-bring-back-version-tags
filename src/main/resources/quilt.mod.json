@@ -1,14 +1,14 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
-		"version": "${version}",
+		"group": "io.github.wertercatt",
+		"id": "versiontags",
+		"version": "1.0",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Bring Back Version Tags!",
+			"description": "Do you miss the text at the top left from pre-1.0 versions of Minecraft? Me too! This mod brings it back.",
 			"contributors": {
-				"Me!": "Owner"
+				"Me!": "wertercatt"
 			},
 			"contact": {
 				"homepage": "https://example.com/",
@@ -20,7 +20,7 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "io.github.wertercatt.versiontags.VersionTags"
 		},
 		"depends": [
 			{
@@ -36,6 +36,5 @@
 				"versions": ">=1.19"
 			}
 		]
-	},
-	"mixin": "example_mod.mixins.json"
+	}
 }
